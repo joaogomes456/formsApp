@@ -1,27 +1,36 @@
-#container {
+.title {
+font-weight:bold;
+text-align: center;
+color:#000000
+}
+
+.version {
+  font-size: 15px;
   text-align: center;
-
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 50%;
-  transform: translateY(-50%);
 }
 
-#container strong {
-  font-size: 20px;
-  line-height: 26px;
-}
+.tform {
+  ion-title {
+    font-weight: bold;
+    color:#000000;
+  }
+  margin-top:5px;
+  margin-bottom:8px;
+  }
 
-#container p {
-  font-size: 16px;
-  line-height: 22px;
+  .info{
+margin-left:8px;
+margin-right: 8px;
 
-  color: #8c8c8c;
+  h4 {
+    font-size: 18px;
+    font-weight:bold;
+    color:#000000;
+  }
 
-  margin: 0;
-}
-
-#container a {
-  text-decoration: none;
-}
+  ion-input {
+    border-color: #92949c;
+    border-style: solid;
+    border-radius: 5rem;
+  }
+  }
